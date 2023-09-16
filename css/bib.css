@@ -215,16 +215,21 @@ text-decoration: none;}
         font-size: 10vw;  
     }
     nav{display: none;}
-    footer{border: none;}
-    .colonnasx{
-        display: none;
-    }
-    .colonnadx{
-        display: none;
-    }
-    .centrato{display: none}
-    .png{
-        width: 25%;
-    }
+    footer{border: none;
+        padding-bottom: 5%;}
+        .colonnasx{
+            display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+            padding: 2% 0% 2% 0%;
+            width: 100%;
+            border: none;
+        }
+        .colonnadx{
+           display: none;
+        }
+        .png{
+            display: none;
+        }
 
 }

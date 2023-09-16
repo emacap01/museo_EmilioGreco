@@ -426,16 +426,21 @@ a{
 @media (max-width: 750px) {
     
     
-    footer{border: none;}
+    footer{border: none;
+    padding-bottom: 5%;}
     .colonnasx{
-        display: none;
+        display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+        padding: 2% 0% 2% 0%;
+        width: 100%;
+        border: none;
     }
     .colonnadx{
-        display: none;
+       display: none;
     }
-    .centrato{display: none;}
     .png{
-        width: 25%;
+        display: none;
     }
     .header{
         font-size: 24px;  

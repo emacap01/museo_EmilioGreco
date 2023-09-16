@@ -224,18 +224,22 @@ justify-content: space-between;
 .icone img{width: 50%;}
 
 @media (max-width: 750px) {
-    nav{display: none;}
-    footer{border: none;}
-    .colonnasx{
-        display: none;
-    }
-    .colonnadx{
-        display: none;
-    }
-    .centrato{display: none;}
-    .png{
-        width: 25%;
-    }
+    footer{border: none;
+        padding-bottom: 5%;}
+        .colonnasx{
+            display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+            padding: 2% 0% 2% 0%;
+            width: 100%;
+            border: none;
+        }
+        .colonnadx{
+           display: none;
+        }
+        .png{
+            display: none;
+        }
     .container{    justify-content: center;}
    .profilo{width:100%;}
    .gliObiettivi{padding: 4%;}

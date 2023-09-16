@@ -239,13 +239,22 @@ body{ background-color:#F3F2EE ;
 
     @media (max-width: 750px) {
         nav{display: none;}
-        footer{border: none;}
-        .colonnasx{
-            display: none;
-        }
-        .colonnadx{
-            display: none;
-        }
+        footer{border: none;
+            padding-bottom: 5%;}
+            .colonnasx{
+                display: flex;
+               flex-direction: row;
+               justify-content: space-around;
+                padding: 2% 0% 2% 0%;
+                width: 100%;
+                border: none;
+            }
+            .colonnadx{
+               display: none;
+            }
+            .png{
+                display: none;
+            }
         .sezione{
             margin: auto;
             WIDTH: 90%;
@@ -278,7 +287,7 @@ body{ background-color:#F3F2EE ;
         .png{
             width: 25%;
         }
-        .centrato{display: none}
+        
         .sopra2{
             padding-bottom: 0%;
             text-align: center;

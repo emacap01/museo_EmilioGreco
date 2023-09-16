@@ -1,0 +1,595 @@
+@font-face {
+    font-family: 'Titolazioni';
+    src: url(../fonts/LucyRosePERSONAL-Regular.otf);
+}
+@font-face{
+    font-family: 'Garamond';
+    src: url(../fonts/CormorantGaramond-Italic.ttf);
+} 
+@font-face {
+    font-family: 'GaramondRegular';
+    src: url(../fonts/CormorantGaramond-Regular.ttf);
+}
+@font-face {
+    font-family:'Paragrafi';
+    src: url(../fonts/QuattrocentoSans-Regular.ttf);
+}
+
+body{ background-color:#F3F2EE ;
+margin:0;
+}
+.hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: fixed;
+    top: 37px;
+    right: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+  }
+  .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #1e1e1e;
+  }
+  .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+  
+  .checkbox {
+    position: fixed;
+    display: none;
+    height: 32px;
+    width: 32px;
+    top: 26px;
+    z-index: 20;
+    right: 16px;
+    opacity: 0;
+    cursor: pointer;
+  }
+nav{
+    background: #f3f2ee;
+    display: flex;
+    border-top: 2px solid black;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
+
+}
+#titolo{margin: 10px 0px;}
+nav div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5vw; 
+ }
+
+nav a {
+    margin :5px;
+    text-decoration: none;
+}
+nav ul{
+    list-style: none;
+}
+li{
+    margin: 3px;
+}
+.sx{
+    width: 20%;
+    border-right: 1px solid black;
+    padding-top: 10px;
+    font-family:'Paragrafi';
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dx{
+    width: 20%;
+    border-left: 1px solid black;
+    padding-top: 10px;
+    font-family:'Paragrafi';
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.noMarginBottom{
+    margin-bottom: 0px;
+}
+.header{
+   font-family:'Titolazioni';
+   font-size: 4vw;
+   color: #1e1e1e;
+}
+.sottotitolo{
+    font-family:'Garamond';
+    font-size: 3vw;
+    color: #1e1e1e
+}
+.link{
+    margin: 10px;
+    font-family:'Titolazioni';
+    font-size: 3.5vw; 
+    color: #1e1e1e
+    
+}
+
+.paragrafi{
+    font-family:'Paragrafi';
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+}
+#sottotitoletto{
+    font-family:'Paragrafi';  
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid black;
+    width: 86%;
+    padding: 4% 7% 7% 7%;
+    border-bottom: 1px solid black;
+
+}
+
+.hero a{
+    height: 4%;
+    margin: -3%;
+    font-family: 'Paragrafi';
+}
+.hero img{
+    width: 100%;
+   
+}
+.centro{
+    margin-top: 2px;
+    border-top: 1px solid black;
+    display: flex;
+justify-content: center;  
+padding: 4% 7%;
+border-bottom: 1px solid black; 
+margin-bottom: 2px;
+
+}
+#museo{
+    width:50%;
+    padding-right: 5%;
+    border-right: 1px solid black;
+}
+#emilio{
+    width: 100%;
+}
+.emilio{width: 44%;
+    }
+.artista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:16% 0% 0 16%;
+}
+.artista a{
+    text-decoration: none;
+}
+.ilMuseo{
+    border-bottom: 1px solid black;
+    padding:0% 0% 10% 16%;
+}
+.ilMuseo a{
+    text-decoration: none;
+}
+
+em{
+    color: #962828;
+    font-style: normal;
+}
+.mostra{
+ border-top: 1px solid black;
+ padding-top: 5%;
+display: flex;
+gap: 45px;
+padding-left: 7%;
+padding-bottom: 5%;
+border-bottom: 1px solid black;
+}
+.mostra img{
+    width: 30%;
+}
+.mostra em{
+font-style: italic;
+color: black;
+}
+.figlioMinore{
+    width: 80%;
+    border-top: 1px solid black;
+}
+.figlioMinore a{
+    font-family: 'Paragrafi';
+}
+.finale{
+    border-top: 1px solid black;
+margin-top: 2px;
+padding: 2% 5%;
+border-bottom: 1px solid black;
+}
+.titolazione{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titolazione p{
+    margin: 5px;
+}
+.dimensione{
+    max-width:369px;
+    max-height: 483px;
+    padding-top: 10%;
+}
+.flex1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vedi{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid black; 
+    font-family:'Paragrafi';
+}
+.vedi p{
+    margin: 5px;
+}
+.stile{
+    font-family:'GaramondRegular';
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+.stile a{
+    text-decoration: none;
+}
+footer{
+    margin:2px;
+    border-top:1px solid black; 
+  padding: 0% 10% 1% 10%;
+  border-bottom:2px solid black; 
+}
+.social{
+    display: flex;
+    justify-content: center;
+    }
+.png{
+    width: 10%;
+} 
+.centrato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}   
+.colonnasx{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-right: 1px solid black;
+    padding-right: 4%;
+    text-align: center;
+  }
+.colonnadx{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    border-left: 1px solid black;
+    padding-left: 4%;
+    text-align: center;
+}
+footer h1{
+    font-family: 'Titolazioni';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-family: 'Garamond';
+    margin-top: 10px;
+    
+}
+footer a{
+    font-family: 'Paragrafi';
+    text-decoration: none;
+}
+.articolo{
+    margin: auto;
+    padding: 2% 0% 5% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    width: 50%;
+
+}
+#loren{
+    width: 100%;
+}
+.fontsize{
+    font-family:'Garamond' ;
+    font-size: 2vw;
+   
+}
+.borderbottom{
+    border-bottom: 1px solid black;
+    margin-bottom:2px ;
+}
+.riconoscimenti{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    border-top: 1px solid black;
+}
+#ritratto{
+    width: 40%;
+    max-height: 680px;
+}
+.riconoscimenti2{
+    width: 40%;
+    border-right: 1px solid black;
+    padding-right: 5%;
+}
+.litografie{
+    font-family: 'Garamond';
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+#collezione{
+    border-top:1px solid black; 
+}
+.titolo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%; 
+}
+.nomi{
+    font-family:'Paragrafi';
+    font-size: 15px;
+    margin: 5px 0px 5px 0px;
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0%;
+}
+.flexColumn img{
+    width: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 7% 15% 0% 15%;
+}
+.immagini{
+    border-bottom: 1px solid black; 
+    margin-bottom: 30px;
+}
+.spacearound{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black; 
+}
+a{
+    color:#1e1e1e;
+}
+.spacearound a{
+    font-family: 'Garamond';
+    font-weight: bold;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+}
+.hidden{display: none;}
+@media (max-width: 750px) {
+    
+    
+    footer{border: none;}
+    .colonnasx{
+        display: none;
+    }
+    .colonnadx{
+        display: none;
+    }
+    .centrato{display: none;}
+    .png{
+        width: 25%;
+    }
+    .header{
+        font-size: 24px;  
+     }
+     .articolo{
+        padding: 2% 5%;
+        width: 90%;
+    }
+  
+     .riconoscimenti{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #ritratto{
+        width: 100%;
+        max-height: 680px;
+    }
+    .paragrafi{
+        font-size: 4vw;
+        line-height: 5vw;
+
+    }
+    .riconoscimenti2{
+        border: none;
+        padding:0%;
+        width: 100%;
+    }
+    .fontsize{ font-size: 3vw;}
+    .png{
+        width: 25%;
+    }
+    .link{
+        font-size: 24px;
+    }
+    .container{
+        padding: 2%;
+        grid-template-columns: 1fr;
+    }
+    .centro{
+        flex-direction: column-reverse;
+        padding: 0%;
+    }
+    .ilMuseo{
+        border-bottom: none;
+        padding: 0%;
+    }
+    .emilio{
+        width: 90%;
+        margin: auto;
+    }
+    .artista{
+        padding: 0%;
+    }
+    #museo{
+        display: none;
+    }
+    .mostra{
+        flex-direction: column-reverse;
+        padding-left: 0%;
+    }
+    .mostra img{
+        width: 80%;
+        margin: auto;
+    }
+    .padre{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 5%;
+    }
+    .hero a{
+        height: 8%;
+        margin: -6%;
+    }
+    .flex1{
+        justify-content: center;
+    }
+    .dimensione{
+        max-width: 268px;
+
+    }
+    .link{
+        font-size: 8vw;
+    }
+    .stile{
+        font-size: 8vw;
+    }
+
+    .dx{border: none;
+        width: 100%;
+        color: #f3f2ee;
+        font-size: 4vw;
+        line-height: 9vw;
+        }
+     
+        .sx{border: none;
+        width: 100%;}
+    nav{
+        left: -15px;
+        margin: 0%;
+        position: fixed;
+        top: 0px;
+        background: #f3f2ee;
+    }
+nav div{
+    
+    width: 100vw;
+    
+}
+    .checkbox {
+        display: block;
+      }
+      nav ul {
+        padding: 0%;
+        margin: 0%;
+        gap: 30px;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        background-color: #4b4a4a;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+      }
+    
+      input[type="checkbox"]:checked ~ nav ul {
+        opacity: 100;
+      }
+      input[type="checkbox"]:checked ~ nav ul .hidden {
+        display: block;
+      }
+    
+      .hamburger-lines {
+        opacity: 100;
+      }
+    
+      ul li{
+        display: block;
+        
+      }
+      .noMarginBottom{margin: 3px;}
+       .submenu {
+        width: 100%;
+        display: block;
+        position:fixed ;
+        padding: 10px 0;
+        margin: 0;
+       }
+       .hero {margin-top: 112px;
+    padding-bottom: 10%;}
+
+}
+
+    

@@ -1,0 +1,331 @@
+@font-face{
+    font-family: 'Paragrafi';
+    src: url(../fonts/QuattrocentoSans-Regular.ttf);
+}
+@font-face{
+    font-family: 'Garamond';
+    src: url(../fonts/CormorantGaramond-Italic.ttf);
+}
+@font-face {
+    font-family: 'Titolazioni';
+    src: url(../fonts/LucyRosePERSONAL-Regular.otf);
+}
+body{ background-color:#F3F2EE ;
+    margin:0;
+    }
+    nav{
+        display: flex;
+        border-top: 2px solid black;
+        margin-top: 10px;
+        justify-content: space-between;
+        padding: 15px;
+        border-bottom: 1px solid black;
+        margin-bottom: 2px;
+    
+    }
+    nav a{
+        text-decoration: none;
+    }
+    #titolo{margin: 10px 0px;}
+    nav div{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+     }
+    
+    nav a {margin :5px}
+    nav p{margin :5px}
+    .sx{
+        width: 20%;
+        border-right: 1px solid black;
+        padding-top: 10px;
+        font-family:'Paragrafi';
+        font-size: 1.5vw;
+    
+    }
+    .dx{
+        width: 20%;
+        border-left: 1px solid black;
+        padding-top: 10px;
+        font-family:'Paragrafi';
+        font-size: 1.5vw;
+    }
+    a{
+        color: #1e1e1e;
+    }
+    .noMarginBottom{
+        margin-bottom: 0px;
+    }
+    .header{
+       font-family:'Titolazioni';
+       font-size: 4vw;
+       color: #1e1e1e;
+    }
+    .sottotitolo{
+        font-family:'Garamond';
+        font-size: 3vw;
+        color: #1e1e1e
+    }
+    #sottotitoletto{
+        font-family:'Paragrafi';
+    }
+
+    footer{
+        margin:2px;
+        border-top:1px solid black; 
+      padding: 2% 10%;
+      border-bottom:2px solid black; 
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        }
+    .png{
+        width: 10%;
+    } 
+    .centrato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }   
+    .colonnasx{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        border-right: 1px solid black;
+        padding-right: 4%;
+        text-align: center;
+      }
+    .colonnadx{
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        border-left: 1px solid black;
+        padding-left: 4%;
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .flex1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+        border-bottom: 1px solid black;
+        padding-bottom: 5%;
+    }
+    .flex2{
+        display: flex;
+        justify-content:center;
+        margin-top: 5px;
+        border-top: 1px solid black;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        gap: 5%;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        padding: 5% 0% 5% 0%;
+        
+    }
+    .stile{
+        width: 40%;
+        border-right: 1px solid black;
+        padding-right: 5%;
+        font-family: 'Paragrafi';
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+    }
+    #immagine{
+        width: 40%;
+        padding-left: 5%;
+    }
+    .stile em{
+        color: #962828;
+    }
+    .stile h2{
+        font-family: 'Garamond';
+        font-size: 3vw;
+    }
+
+    .titoli{
+        display: flex;
+        justify-content: center;
+        font-family: 'Titolazioni';
+        font-size: 4vw;
+    }
+    .linee{
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    .flexcenter{ 
+        display: flex;
+        justify-content: center;
+        padding: 5% 0% 5% 0%;
+        border-bottom: 1px solid black;
+    }
+
+    .stile2{
+        width: 40%;
+        font-family: 'Paragrafi';
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+    }
+    .stile2 h2{
+        font-family: 'Garamond';
+        font-size: 3vw;
+    }
+    #commiato{
+        width: 46%;
+    }
+
+    .center2{
+        border-top: 1px solid black;
+    }
+
+    #pinocchio{
+        width: 90%;
+    }
+    .space{
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 2%;
+        font-family: 'Garamond';
+        font-weight: bold;
+        font-size: 1.5vw;
+        border-bottom:1px solid black; ;
+    }
+    .border{
+        border-right: 1px solid black;
+        padding-right: 20%;
+    }
+    .stile3{
+        width: 34%;
+       
+    }
+    .stile3 h2{
+        font-family: 'Garamond';
+        font-size: 3vw;
+
+    }
+    .stile3{
+        font-family: 'Paragrafi';
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+    }
+    #poesie1{
+        width: 55%;
+        padding-left: 5%;
+    }
+    #poesie2{
+        width: 100%;
+    }
+    footer h1{
+        font-family: 'Titolazioni';
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+   
+    footer a{
+        font-family: 'Paragrafi';
+        text-decoration: none;
+    }
+ @media (max-width: 750px){
+    nav{display: none;}
+    footer{border: none;}
+    .colonnasx{
+        display: none;
+    }
+    .colonnadx{
+        display: none;
+    }
+    .centrato{display: none}
+    .png{
+        width: 25%;
+    }
+    .flexcenter{
+        display: flex;
+        flex-direction: column; 
+    }
+    .stile{
+        border-right: none;
+        margin: auto;
+        font-size: 3vw;
+        line-height: 4vw;
+        width: 80%;
+    }
+    .stile h2{
+        font-size: 4vw;
+    }
+    #immagine{
+        margin: auto;
+        width: 80%;
+        padding: 0%;
+    }
+    .flex2{
+        display: flex;
+        flex-direction: column;
+    }
+    #commiato{
+        margin: auto;
+    }
+    .stile2{
+        margin: auto; 
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+    .stile2 p{
+        font-size: 3vw;
+        line-height: 4vw;
+        width: 80%;
+    }
+    .stile2 h2{
+        font-size: 4vw;
+    }
+    .space{
+        font-size: 3vw;
+        margin: auto;
+    }
+    .border{
+        padding-right: 13%;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+    }
+    #pinocchio{
+        width: 60%;
+        display: flex;
+        margin: auto;
+    }
+    #poesie1{
+        margin: auto;
+        width: 80%;
+        padding-left: 0%;
+    }
+    #poesie2{
+        width: 80%;
+        display: flex;
+        margin: auto;
+    }
+    .stile3{
+        margin: auto; 
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+    .stile3 p{
+        font-size: 3vw;
+        line-height: 4vw;
+      
+    }
+    .stile3 h2{
+        font-size: 4vw;
+    }
+ }

@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Titolazioni';
+    src: url(../fonts/LucyRosePERSONAL-Regular.otf);
+}
+@font-face{
+    font-family: 'Garamond';
+    src: url(../fonts/CormorantGaramond-Italic.ttf);
+} 
+@font-face {
+    font-family: 'GaramondRegular';
+    src: url(../fonts/CormorantGaramond-Regular.ttf);
+}
+@font-face {
+    font-family:'Paragrafi';
+    src: url(../fonts/QuattrocentoSans-Regular.ttf);
+}
+
+body{ background-color:#F3F2EE ;
+margin:0;
+}
+nav{
+    display: flex;
+    border-top: 2px solid black;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
+
+}
+#titolo{margin: 10px 0px;}
+nav div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5vw; 
+ }
+
+nav a {margin :5px;}
+.sx{
+    width: 20%;
+    border-right: 1px solid black;
+    padding-top: 10px;
+    font-family:'Paragrafi';
+    font-size: 1.5vw;
+}
+.dx{
+    width: 20%;
+    border-left: 1px solid black;
+    padding-top: 10px;
+    font-family:'Paragrafi';
+}
+.noMarginBottom{
+    margin-bottom: 0px;
+}
+.sezione{
+    display: flex;
+    justify-content: center;
+    padding: 5% 3% 5% 0%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.orari{
+    display: flex;
+    flex-direction: column;
+    width: 54%;
+    padding: 0% 5% 2% 5%;
+    border-right: 1px solid black;
+}
+.immagine{
+    max-width: 100%;
+}
+.biblioteca{
+    max-width:100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom:1px solid black;
+    padding: 2% 10% 2% 10%;
+}
+.biblioteca h2{
+    font-family: 'Titolazioni';
+    font-size: 3vw;
+    font-weight: normal;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 37%;
+}
+.libro{
+    max-width: 100%;
+    padding: 5% 10% 2% 10%;
+}
+footer{
+    margin:2px;
+    border-top:1px solid black; 
+  padding: 0% 10% 1% 10%;
+  border-bottom:2px solid black; 
+}
+.social{
+    display: flex;
+    justify-content: center;
+    }
+.png{
+    width: 10%;
+} 
+.centrato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}   
+.colonnasx{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-right: 1px solid black;
+    padding-right: 4%;
+    text-align: center;
+  }
+.colonnadx{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    border-left: 1px solid black;
+    padding-left: 4%;
+    text-align: center;
+}
+footer h2{
+    font-family: 'Titolazioni';
+    font-size: 3vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-family: 'Garamond';
+    margin-top: 10px;
+    
+}
+footer a{
+    font-family: 'Paragrafi';
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.paragrafi{
+    font-family: 'Paragrafi';
+    font-size: 24px;
+    line-height: 24pt;
+}
+.orari h2{
+    font-family: 'Garamond';
+    font-size: 2vw;
+    margin-bottom: 5px;
+}
+h1{
+    font-family: 'Titolazioni';
+    font-size: 4vw;
+}
+a{color: #1e1e1e;
+text-decoration: none;}
+.sottotitolo{
+    font-family:'Garamond';
+    font-size: 3vw;
+    color: #1e1e1e
+}
+@media (max-width: 750px) {
+    .sezione{
+        padding: 5%;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .orari{
+        width: 100%;
+        padding: 0%;
+        border-right: none;
+        display: flex;
+        align-items: center;
+    }
+    .column{
+        width: 100%;
+    }
+    .libro{
+        width: 100%;
+        padding: 0%;
+    }
+    .biblioteca{
+        width: 100%;
+        padding: 0%;
+        align-items: center;
+    }
+    .biblioteca h2{
+        font-size: 10vw;
+    }
+    .immagine{
+        width: 100%;
+    }
+
+    .orari h2{
+        font-size: 8vw;
+    }
+    h1{
+        font-size: 10vw;  
+    }
+    nav{display: none;}
+    footer{border: none;}
+    .colonnasx{
+        display: none;
+    }
+    .colonnadx{
+        display: none;
+    }
+    .centrato{display: none}
+    .png{
+        width: 25%;
+    }
+
+}

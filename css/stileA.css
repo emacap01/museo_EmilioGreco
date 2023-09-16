@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Titolazioni';
+    src: url(../fonts/LucyRosePERSONAL-Regular.otf);
+}
+@font-face{
+    font-family: 'Garamond';
+    src: url(../fonts/CormorantGaramond-Italic.ttf);
+} 
+@font-face {
+    font-family: 'GaramondRegular';
+    src: url(../fonts/CormorantGaramond-Regular.ttf);
+}
+@font-face {
+    font-family:'Paragrafi';
+    src: url(../fonts/QuattrocentoSans-Regular.ttf);
+}
+
+body{ background-color:#F3F2EE ;
+margin:0;
+}
+nav{
+    display: flex;
+    border-top: 2px solid black;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
+
+}
+#titolo{margin: 10px 0px;}
+nav div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5vw; 
+ }
+
+nav a {margin :5px;
+
+}
+.sx{
+    width: 20%;
+    border-right: 1px solid black;
+    padding-top: 10px;
+    font-family:'Paragrafi';
+    font-size: 1.5vw;
+}
+.dx{
+    width: 20%;
+    border-left: 1px solid black;
+    padding-top: 10px;
+    font-family:'Paragrafi';
+}
+.noMarginBottom{
+    margin-bottom: 0px;
+}
+.header{
+   font-family:'Titolazioni';
+   font-size: 4vw;
+   color: #1e1e1e;
+}
+.sottotitolo{
+    font-family:'Garamond';
+    font-size: 3vw;
+    color: #1e1e1e
+}
+.link{
+    margin: 10px;
+    font-family:'Titolazioni';
+    font-size: 3.5vw; 
+    color: #1e1e1e
+    
+}
+
+.paragrafi{
+    font-family:'Paragrafi';
+    font-size: 2wv;
+    line-height: 3wv;
+}
+ #sottotitoletto{
+    font-family:'Paragrafi';  
+ }
+ a{
+    color:#1e1e1e;
+    text-decoration: none;
+}
+    footer{
+        margin:2px;
+        border-top:1px solid black; 
+      padding: 2% 10%;
+      border-bottom:2px solid black; 
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        }
+    .png{
+        width: 10%;
+    } 
+    .centrato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .colonnasx{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        border-right: 1px solid black;
+        padding-right: 4%;
+        text-align: center;
+      }
+    .colonnadx{
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        border-left: 1px solid black;
+        padding-left: 4%;
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .div{
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid black;
+        width:100%;
+        font-family: 'Titolazioni' ;
+        font-size: 3vw; 
+    }
+    .div h1{
+        font-weight: lighter;
+    }
+    .div1{
+        display: flex;
+        justify-content: center;
+        padding-top: 2%;   
+    }
+    .div1 h2{
+        font-family: 'Garamond' ;
+        font-size: 2.5vw;
+    }
+    .sezione1{
+        padding: 0% 0% 2% 0%;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;;
+    }
+    .contenitore1{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-evenly;
+        row-gap: 50px;
+        padding: 5%
+    }
+    .minititolo1{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .minititolo2{
+        border-bottom: 1px solid black;
+        
+    }
+    .minititolo1 p{
+        font-family: 'Paragrafi';
+    }
+    .bold{
+        font-family: 'Paragrafi';
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .italic{
+        font-family: 'Paragrafi';
+        font-style: italic;  
+        margin-top: 5px;
+    }
+    .minititolo2 p{
+        margin-bottom: 2px;
+    }
+    .contenitore2{
+        display: flex;
+        justify-content: space-between;
+        padding: 4% 9% 0% 4%
+    }
+    .sezione2{
+        padding: 0% 2% 0% 2%;
+        border-top: 1px solid black;
+        margin-top: 5px;
+        border-bottom: 1px solid black;
+    }
+.minititolo1 h5{
+    color: #F3F2EE;
+    margin-bottom: 5px;
+}
+.dimensione{
+    width: 100%;
+}
+.dimensione2{
+    width: 100%;
+}
+#width{
+    max-width: 90%;
+}
+#width2{
+    max-width: 100%;
+}
+footer h1{
+    font-family: 'Titolazioni';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-family: 'Garamond';
+    margin-top: 10px;
+    
+}
+footer a{
+    font-family: 'Paragrafi';
+}
+@media (max-width: 750px) {
+    .div1 h2{
+        font-size: 4vw;
+    }
+    footer{border: none;}
+    .colonnasx{
+        display: none;
+    }
+    .colonnadx{
+        display: none;
+    }
+    .centrato{display: none}
+    .png{
+        width: 25%;
+    }
+}

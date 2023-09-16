@@ -31,13 +31,13 @@ body{ background-color:#F3F2EE ;
      }
     
     nav a {margin :5px}
-    nav p{margin :5px}
     .sx{
         width: 20%;
         border-right: 1px solid black;
         padding-top: 10px;
         font-family:'Paragrafi';
         font-size: 24px;
+        text-align: center;
     
     }
     .dx{
@@ -52,7 +52,7 @@ body{ background-color:#F3F2EE ;
     }
     .header{
        font-family:'Titolazioni';
-       font-size: 64px;
+       font-size: 4vw;
        color: #1e1e1e;
     }
     .sottotitolo{
@@ -120,7 +120,7 @@ body{ background-color:#F3F2EE ;
         display: flex;
         justify-content: center;
         font-family: 'Titolazioni';
-        font-size: 64px;
+        font-size: 3.5vw;
         font-weight: lighter;
     }
     .linee{

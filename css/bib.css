@@ -43,6 +43,7 @@ nav a {margin :5px;}
     padding-top: 10px;
     font-family:'Paragrafi';
     font-size: 1.5vw;
+    text-align: center;
 }
 .dx{
     width: 20%;
@@ -53,6 +54,11 @@ nav a {margin :5px;}
 .noMarginBottom{
     margin-bottom: 0px;
 }
+.header{
+    font-family:'Titolazioni';
+    font-size: 4vw;
+    color: #1e1e1e;
+ }
 .sezione{
     display: flex;
     justify-content: center;

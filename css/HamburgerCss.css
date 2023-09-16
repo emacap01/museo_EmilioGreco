@@ -2,6 +2,10 @@
   font-family:'Paragrafi';
   src: url(../fonts/QuattrocentoSans-Regular.ttf);
 }
+a:hover{
+  text-decoration: underline;
+}
+
 .hamburger-lines {
   display: block;
   height: 26px;
@@ -79,16 +83,7 @@ nav ul{
 li{
   margin: 3px;
 }
-.sx{
-  width: 20%;
-  border-right: 1px solid black;
-  padding-top: 10px;
-  font-family:'Paragrafi';
-  font-size: 1.5vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .dx{
   width: 20%;
   border-left: 1px solid black;
@@ -100,6 +95,7 @@ li{
   align-items: center;
 }
 @media (max-width: 750px) {
+  
   body{margin-top: 112px;}
   .header {
     font-size: 24px;
@@ -107,13 +103,12 @@ li{
   .dx{border: none;
         width: 100%;
         z-index: 10;
-        color: #f3f2ee;
+        color: white;
         font-size: 4vw;
         line-height: 9vw;
         }
      
-        .sx{border: none;
-        width: 100%;}
+       
     nav{
       display: flex;
         margin: 0%;
@@ -129,25 +124,26 @@ nav div{
     .checkbox {
         display: block;
       }
-      nav ul {
+      nav .dx {
         padding: 0%;
-        
+        display: none;
         margin: 0%;
         gap: 30px;
         flex-direction: column;
         position: fixed;
         top: 0;
         left: 0;
-        opacity: 0;
-        background-color: #4b4a4a;
+        opacity: 100;
+        background-color: #b5b2b2;
         width: 100%;
         height: 100%;
         justify-content: center;
         text-align: center;
       }
+      nav .sx{display: none;}
     
       input[type="checkbox"]:checked ~  ul {
-        opacity: 100;
+        display: flex;
       }
       input[type="checkbox"]:checked ~  ul .hidden {
         display: block;

@@ -43,6 +43,7 @@ nav a {margin :5px;}
     padding-top: 10px;
     font-family:'Paragrafi';
     font-size: 1.5vw;
+    text-align: center;
 }
 .dx{
     width: 20%;
@@ -176,6 +177,11 @@ h1{
     font-family: 'Titolazioni';
     font-size: 4vw;
 }
+.header{
+    font-family:'Titolazioni';
+    font-size: 4vw;
+    color: #1e1e1e;
+ }
 a{color: #1e1e1e;
 text-decoration: none;}
 .sottotitolo{

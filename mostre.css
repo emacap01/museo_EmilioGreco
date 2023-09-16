@@ -1,0 +1,366 @@
+@font-face {
+    font-family: 'Paragrafi' ;
+    src: url(../fonts/QuattrocentoSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Titolazioni' ;
+    src: url(../fonts/LucyRosePERSONAL-Regular.otf);
+}
+@font-face {
+    font-family: 'GaramondRegular' ;
+    src: url(../fonts/CormorantGaramond-Regular.ttf);
+}
+@font-face {
+    font-family: 'Garamond' ;
+    src: url(../fonts/CormorantGaramond-Italic.ttf);
+}
+
+body{ background-color:#F3F2EE ;
+margin:0;
+}
+nav{
+    display: flex;
+    border-top: 2px solid black;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
+}
+#titolo{margin: 10px 0px;}
+nav div{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5vw; 
+    
+}
+nav a {margin :5px}
+nav p{margin :5px}
+.sx{
+    width: 20%;
+    border-right: 1px solid black;
+    padding-top: 10px;
+    font-family:'Paragrafi';
+    font-size: 1.5vw;
+    text-align: center;
+}
+.dx{
+    width: 20%;
+    border-left: 1px solid black;
+    padding-top: 10px;
+    font-family:'Paragrafi';
+}
+.noMarginBottom{
+    margin-bottom: 0px;
+}
+.header{
+   font-family:'Titolazioni';
+   font-size: 4vw;
+   color: #1e1e1e;
+}
+.sottotitolo{
+    font-family:'Garamond';
+    font-size: 3vw;
+    color: #1e1e1e
+}
+.link{
+    margin: 10px;
+    font-family:'Titolazioni';
+    font-size: 48px; 
+    color: #1e1e1e   
+}
+
+.paragrafi{
+    font-family:'Paragrafi';
+    font-size: 2vw;
+    line-height: 3vw;
+}
+#sottotitoletto{
+    font-family:'Paragrafi';  
+}
+a{
+    color:#1e1e1e;
+    text-decoration: none;
+}
+
+
+
+
+.bordertop{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 2px;
+    justify-content: space-between;
+    padding: 5% 10% 5% 10%;
+    margin-bottom: 2px;
+}
+.borderbottom{
+    padding: 5% 12% 5% 12%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+#linea{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
+}
+.diplayflex{
+    display: flex;
+    flex-direction: column;
+}
+.titolii{
+    padding: 2% 0 2% 0;
+    border-top: 1px solid black;
+}
+main section h4{
+    font-family: 'Paragrafi';
+    font-size: 1.7vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+main section h1{
+    font-family: 'Titolazioni';
+    font-size: 4vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+main section h3{
+    font-family: 'Garamond';
+    font-size: 3vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.figlio img{
+    max-width: 340px;
+    height: 441px;
+}
+.nipote{
+    border-bottom: 1px solid black;
+    font-family: 'Paragrafi';
+    color: black;
+    width: 40%;
+}
+.nipote img{
+    max-width: 100%;
+}
+main section img{
+    max-width: 100%;
+}
+.figlio2{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    font-family: 'Paragrafi';
+    color: black;
+}
+.padre{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.figlio{
+    border-bottom: 1px solid black;
+    font-family: 'Paragrafi';
+    color: black;
+}
+.nonno{
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 10% 3% 10%;
+}
+.statua{
+    width: 50%;
+    border-right: 1px solid black;
+    padding-right: 5%;
+}
+.descrizione{
+    font-family: 'Paragrafi';
+    font-size: 1.5vw ;
+    color: black;
+    display: flex;
+    padding-right: 10%;
+    padding-left: 10%;
+    line-height: 2.5vw;
+    width: 90%;
+    border-bottom: 1px solid black;
+}
+.descr2{
+    font-family: 'Paragrafi';
+    font-size: 1.5vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5vw;
+    padding-right: 10%;
+    padding: 10% 5% 10% 10%;
+    width: 90%;
+}
+
+footer{
+    margin:2px;
+    border-top:1px solid black; 
+    padding: 2% 10%;
+    border-bottom:2px solid black; 
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.png{
+     width: 10%;
+} 
+.centrato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}  
+footer h1{
+    font-family: 'Titolazioni';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-family: 'Garamond';
+    margin-top: 10px;
+    
+}
+footer a{
+    font-family: 'Paragrafi';
+} 
+.colonnasx{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-right: 1px solid black;
+    padding-right: 4%;
+    text-align: center;
+}
+.colonnadx{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    border-left: 1px solid black;
+    padding-left: 4%;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 750px) {
+    nav{display: none;}
+    footer{border: none;}
+    .colonnasx{
+        display: none;
+    }
+    .colonnadx{
+        display: none;
+    }
+    .centrato{display: none}
+    .png{
+        width: 25%;
+    }
+    .nipote{
+        font-size: 3.5vw;
+        margin-bottom: 5%;
+        width: 100%;
+        text-align: center;
+    }
+    .figlio{
+        font-size: 3.5vw;
+        margin-bottom: 5%;
+        width: 100%;
+        text-align: center;
+    }
+    .figlio2{
+        font-size: 3.5vw;
+        margin-bottom: 5%;
+        width: 100%;
+        text-align: center;
+    }
+    .figlio img {
+        max-width: 100%;
+         height: fit-content;}
+    .nonno{    display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0% 10% 0% 10%;}
+        .padre{    display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+           }
+
+        .borderbottom {
+            margin: auto;
+            padding: 5% 12% 5% 12%;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            margin-top: 2px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .statua {
+            width: 100%;
+             border-right: none;
+            padding-right:  none;}
+            .descrizione {
+                font-family: 'Paragrafi';
+                font-size: 3vw;
+                color: black;
+                display: flex;
+                padding: 0%;
+                line-height: 5vw;
+                width: 100%;
+                border-bottom: 1px solid black;
+            }
+            .descr2 {
+                font-family: 'Paragrafi';
+                font-size: 3vw;
+                color: black;
+                display: flex;
+                flex-direction: column;
+                line-height: 5vw;
+                padding-right: 10%;
+                padding: 0%;
+                width: 100%;
+            }
+
+            main section h4{
+               
+                font-size: 4vw;
+               
+            }
+            
+            main section h1{
+                
+                font-size: 8vw;
+              
+            }
+            
+            main section h3{
+                
+                font-size: 4vw;
+               
+            }
+            #linea{
+                padding-top: 5%;
+            }
+}

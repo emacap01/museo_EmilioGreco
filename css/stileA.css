@@ -156,6 +156,10 @@ nav a {margin :5px;
         row-gap: 50px;
         padding: 5%
     }
+    .divimmagine a{
+        font-family: 'Paragrafi';
+        margin-top: 15px;
+    }
     .minititolo1{
         display: flex;
         justify-content: space-between;

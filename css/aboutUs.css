@@ -222,10 +222,27 @@ flex-wrap: wrap;
 justify-content: space-between;
 }
 .icone img{width: 50%;}
+footer h1{
+    font-family: 'Titolazioni';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-family: 'Garamond';
+    margin-top: 10px;
+    
+}
+footer a{
+    font-family: 'Paragrafi';
+    text-decoration: none;
+}
 
 @media (max-width: 750px) {
     footer{border: none;
         padding-bottom: 5%;}
+        footer h1{
+            font-size: 5vw;
+        }
         .colonnasx{
             display: flex;
            flex-direction: row;
@@ -243,4 +260,30 @@ justify-content: space-between;
     .container{    justify-content: center;}
    .profilo{width:100%;}
    .gliObiettivi{padding: 4%;}
+   .chiSiamo p{
+    font-size: 4vw;
+    line-height: 5vw;
+   }
+   .chiSiamo h2{
+    font-size: 6vw;
+    line-height: 7vw;
+   }
+   .gliAutori h2{
+    font-size: 6vw;
+    line-height: 7vw;
+   }
+   .profilo em{
+    font-size: 3vw;
+}
+.profilo p{
+    font-size: 3vw;
+}
+.gliObiettivi h2{
+    font-size: 6vw;
+    
+}
+.gliObiettivi p{
+    font-size: 3.5vw;
+    line-height: 5vw;
+}
 }

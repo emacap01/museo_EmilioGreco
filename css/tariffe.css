@@ -269,7 +269,7 @@ h2{
         font-size: inherit;
     }
     nav{display: none;}
-    footer{border: none;
+    footer{border-bottom: none;
         padding-bottom: 5%;}
         .colonnasx{
             display: flex;
@@ -284,6 +284,9 @@ h2{
         }
         .png{
             display: none;
+        }
+        .centrato h1{
+            font-size: 6vw;
         }
 }
 

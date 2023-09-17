@@ -156,8 +156,8 @@ footer a{
 }
 .paragrafi{
     font-family: 'Paragrafi';
-    font-size: 24px;
-    line-height: 24pt;
+    font-size: 1.5vw;
+    line-height: 2vw;
 }
 .orari h2{
     font-family: 'Garamond';
@@ -181,6 +181,10 @@ text-decoration: none;}
     }
     .container{
         flex-direction: column-reverse;
+    }
+    .paragrafi{
+        font-size: 4vw;
+        line-height: 5vw;
     }
     .orari{
         width: 100%;
@@ -217,6 +221,9 @@ text-decoration: none;}
     nav{display: none;}
     footer{border: none;
         padding-bottom: 5%;}
+       .centrato h2{
+        font-size: 6vw;
+       }
         .colonnasx{
             display: flex;
            flex-direction: row;

@@ -272,7 +272,9 @@ border-bottom: 1px solid black;
     border-bottom:1px solid black; 
     font-family:'Paragrafi';
 }
-.vedi p{
+
+.vedi a{
+    text-decoration: none;
     margin: 5px;
 }
 .stile{

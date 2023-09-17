@@ -36,8 +36,10 @@ nav div{
         font-size: 1.5vw; 
     
 }
-nav a {margin :5px}
 nav p{margin :5px}
+li{
+    margin: 3px;
+}
 .sx{
     width: 20%;
     border-right: 1px solid black;
